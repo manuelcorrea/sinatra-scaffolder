@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+require 'sinatra-scaffolder/cli'
+SinatraScaffolder::CLI.start ARGV
