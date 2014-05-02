@@ -15,7 +15,6 @@ This will create go through the entire process of creating a new Sinatra project
 * Setting up a standard Sinatra folder structure.
 * Creating hello world as an example controller.
 * Setting up the rspec testing framework with a test of hello world.
-* Configuring rake with a colorized coverage task to run all rspec tests.
 * Configuring sinatra-reloader to pick up any file changes and reload the webserver in dev.
 * Initializing a new git repo in the project path.
 
