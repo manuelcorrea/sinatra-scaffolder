@@ -20,10 +20,10 @@ Gem::Specification.new do |gem|
   gem.add_dependency 'thor', "0.19.1"
   gem.add_dependency 'git', "1.2.9"
 
-  gem.add_development_dependency 'guard', '2.6.0'
-  gem.add_development_dependency 'guard-rspec', '4.2.8'
-  gem.add_development_dependency 'simplecov', '0.8.2'
+  gem.add_development_dependency 'guard', '2.12.5'
+  gem.add_development_dependency 'guard-rspec', '4.5.0'
+  gem.add_development_dependency 'simplecov', '0.9.2'
   gem.add_development_dependency 'growl', '1.0.3'
   gem.add_development_dependency 'rb-fsevent', '0.9.4'
-  gem.add_development_dependency 'rake', '10.3.1'
+  gem.add_development_dependency 'rake', '10.4.2'
 end
