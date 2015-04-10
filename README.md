@@ -4,7 +4,7 @@ A set of tools for creating new webservices with Sinatra.  Allows quickly settin
 
 ## Installation
 
-	$ git clone <this_repo> && cd PlatformSoftware_SinatraScaffolder
+	$ git clone <this_repo> && cd <this-repo>
 	$ gem build sinatra-scaffolder.gemspec
     $ gem install sinatra-scaffolder
     

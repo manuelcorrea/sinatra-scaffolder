@@ -1,4 +1,4 @@
-require_relative './test_helper'
+require_relative '../test_helper'
 
 describe Sinatra::Application, "#sample controller" do
   include Rack::Test::Methods
@@ -9,6 +9,6 @@ describe Sinatra::Application, "#sample controller" do
   
   it "can successfully get sample" do
     get "/sample"
-    last_response.body.should eq 'Hello world'
+    expect(last_response.body).to eq 'Hello world'
   end
 end
