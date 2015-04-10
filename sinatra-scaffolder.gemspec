@@ -18,7 +18,7 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
 
   gem.add_dependency 'thor', "0.19.1"
-  gem.add_dependency 'git', "1.2.6"
+  gem.add_dependency 'git', "1.2.9"
 
   gem.add_development_dependency 'guard', '2.6.0'
   gem.add_development_dependency 'guard-rspec', '4.2.8'
