@@ -2,7 +2,7 @@ require 'rake'
 require 'rake/testtask'
 require 'rspec/core/rake_task'
 
-task :default=>[:spec]
+task :default=>[:test]
 
 desc "Run unit tests and spec tests with rspec so that they show together when running the coverage report"
 RSpec::Core::RakeTask.new('spec') do |t|

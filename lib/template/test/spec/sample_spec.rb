@@ -1,4 +1,4 @@
-require_relative './test_helper'
+require_relative '../test_helper'
 
 describe Sinatra::Application, "#sample controller" do
   include Rack::Test::Methods
