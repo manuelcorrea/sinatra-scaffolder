@@ -1,3 +1,5 @@
+[ ![Codeship Status for manuelcorrea/sinatra-scaffolder](https://codeship.com/projects/24ff0e90-c370-0132-dd6a-4a0ff033b2c2/status?branch=master)](https://codeship.com/projects/73884)
+
 # Sinatra Scaffolder
 
 A set of tools for creating new webservices with Sinatra.  Allows quickly setting up a new project with all of the quality of life things we've found to ease the process of Ruby development even more.
