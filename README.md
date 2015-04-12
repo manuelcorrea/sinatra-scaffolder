@@ -19,6 +19,12 @@ This will create go through the entire process of creating a new Sinatra project
 * Configuring sinatra-reloader to pick up any file changes and reload the webserver in dev.
 * Initializing a new git repo in the project path.
 
+Run your tests by using
+    $ rake coverage
+
+Run Guard by
+    $ guard
+
 ## Contributing
 
 1. Fork it
