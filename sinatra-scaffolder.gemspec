@@ -6,8 +6,8 @@ require 'sinatra-scaffolder/version'
 Gem::Specification.new do |gem|
   gem.name          = "sinatra-scaffolder"
   gem.version       = SinatraScaffolder::VERSION
-  gem.authors       = ["Brian Hare"]
-  gem.email         = ["brian.hare@careerbuilder.com"]
+  gem.authors       = ["Brian Hare", "Manuel Correa"]
+  gem.email         = ["brian.hare@careerbuilder.com", "mcorrea.web@gmail.com"]
   gem.description   = %q{A CLI for scaffolding a Sinatra application}
   gem.summary       = %q{A CLI for scaffolding a Sinatra application}
   gem.licenses       = ["Beerware"]
