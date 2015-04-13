@@ -10,33 +10,33 @@ describe SinatraScaffolder do
     after(:all) do
       SinatraScaffolder::Create.instance.delete('test-project')
     end
-    
+
     it 'Creates the sample Sinatra app' do
-      expect(File).to exist("../test-project/app.rb")
+      expect(File).to exist("test-project/app.rb")
     end
     
     it 'Creates the hello world controller' do
-      expect(File).to exist("../test-project/controllers/sample.rb")
+      expect(File).to exist("test-project/controllers/sample.rb")
     end
     
     it 'Creates the hello world rspec test' do
-      expect(File).to exist("../test-project/spec/sample_spec.rb")      
+      expect(File).to exist("test-project/test/spec/sample_spec.rb")
     end
     
     it 'Sets up coverage report rake task' do
-      expect(File).to exist("../test-project/Rakefile")
-      File.read("../test-project/Rakefile").should include "COVERAGE"
-      expect(File).to exist("../test-project/spec/test_helper.rb")
-      File.read("../test-project/spec/test_helper.rb").should include "SimpleCov"
+      expect(File).to exist("test-project/Rakefile")
+      expect(File.read("test-project/Rakefile")).to include "COVERAGE"
+      expect(File).to exist("test-project/test/test_helper.rb")
+      expect(File.read("test-project/test/test_helper.rb")).to include "SimpleCov"
     end
     
     it 'Configures sinatra-reloader in dev' do
-      expect(File).to exist("../test-project/config/development.rb")
-      File.read("../test-project/config/development.rb").should include "reloader"
+      expect(File).to exist("test-project/config/development.rb")
+      expect(File.read("test-project/config/development.rb")).to include "reloader"
     end
     
     it 'Initializes the git repo' do
-      expect(File).to exist("../test-project/.git/index")
+      expect(File).to exist("test-project/.git/index")
     end
   end  
 end

@@ -2,3 +2,4 @@
 Gemfile.lock
 coverage
 spec/reports
+.idea/*
